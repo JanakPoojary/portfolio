@@ -1,0 +1,7 @@
+.bg {
+    background-image: url(../../assets/page_not_found.svg) !important;
+    background-size: cover;
+}
+.ht100 {
+    height: 100vh;
+}

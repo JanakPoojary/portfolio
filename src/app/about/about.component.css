@@ -1,0 +1,49 @@
+.ht100 {
+    height: 100%;
+}
+
+.wrap{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8rem;
+}
+
+.sub-heading{
+    font-family: 'Prompt', sans-serif;
+    font-size: 1rem;
+}
+
+.chartreuse{
+    color:chartreuse;
+}
+
+.white{
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: 60%;
+    justify-content: center;
+}
+
+.flex-item {
+    text-align: center;
+}

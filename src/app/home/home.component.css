@@ -1,0 +1,16 @@
+
+.bg {
+    background-image: url(../../assets/sun-tornado.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mat-divider {
+    border-top-color: chartreuse;
+    border-top-width: 0.3rem;
+    
+}
+
+.p4{
+    padding: 4rem;
+}
