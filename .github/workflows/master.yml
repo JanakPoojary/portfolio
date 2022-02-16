@@ -46,7 +46,7 @@ jobs:
           name: artifact
       - name: Show files
         run: |
-          ls /home/runner/work/portfolio/portfolio
+          ls /home/runner/work/portfolio
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
