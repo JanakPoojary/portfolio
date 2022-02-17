@@ -10,7 +10,7 @@
 
 .heading{
     font-family: 'Raleway', sans-serif;
-    font-size: 8rem;
+    font-size: clamp( 2rem, 9vw, 7rem);
 }
 
 .sub-heading{
@@ -46,4 +46,11 @@
 
 .flex-item {
     text-align: center;
+}
+
+.avatar{
+    height:clamp( 2rem, 35vw, 30rem);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
