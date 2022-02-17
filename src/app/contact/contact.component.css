@@ -9,7 +9,7 @@
   }
 
 .flex-container {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,10 +35,10 @@
 
 .heading{
     font-family: 'Raleway', sans-serif;
-    font-size: 5rem;
+    font-size: clamp( 2rem, 9vw, 5rem);;
 }
 
 .sub-heading{
     font-family: 'Prompt', sans-serif;
-    font-size: 2rem;
+    font-size: clamp( 0.5rem, 5vw, 2rem);;
 }
