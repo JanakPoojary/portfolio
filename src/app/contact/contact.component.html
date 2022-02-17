@@ -1,8 +1,10 @@
 <div class="flex-container">
     <div class="row">
         <h3 class="flex-item heading white wrap">Let's Connect</h3>
-        <p class="flex-item sub-heading white wrap">LinkedIn : <span class="chartreuse">Janak Poojary</span>
-        </p>
-        <p class="flex-item sub-heading white wrap">Mail : <span class="chartreuse">janakrajpoojari@gmail.com</span></p>
+        <ng-container *ngFor="let contact of contacts">
+            <p class="flex-item sub-heading white wrap">{{contact.type}} : <span class="chartreuse"><a target="_blank"
+                        [href]="contact.url">{{contact.userName}}</a></span>
+            </p>
+        </ng-container>
     </div>
 </div>

@@ -42,3 +42,14 @@
     font-family: 'Prompt', sans-serif;
     font-size: clamp( 0.5rem, 5vw, 2rem);;
 }
+
+a {
+    color:chartreuse;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
