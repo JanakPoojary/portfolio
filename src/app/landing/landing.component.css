@@ -1,0 +1,111 @@
+.wrap{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp( 2.5rem, 9vw, 7rem);
+    
+    
+}
+
+.sub-heading{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+}
+
+.chartreuse{
+    color:chartreuse;
+}
+.stroke-chartreuse{
+    color: transparent;
+    -webkit-text-stroke: 0.05vw chartreuse ;
+}
+.stroke-white{
+    color: transparent;
+    -webkit-text-stroke: 0.05vw white ;
+}
+
+.white{
+    z-index: -1;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.row {
+    width: 60%;
+    justify-content: center;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.avatar{
+    /* height:clamp( 2rem, 35vw, 30rem); */
+    height:clamp( 20rem, 45vw, 47rem);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.abc:hover, .learner:hover, .dev:hover{
+    color: chartreuse;
+}
+
+.abc:hover::before {
+    content: "Computer ";
+    color:white;    
+}
+
+.dev:hover::before {
+    content: "A passionate ";
+    color:white;    
+}
+
+.learner:hover::after {
+    content: " for life.";
+    color:white;
+}
+.avatar-box{
+    align-items: end;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    justify-content: right;
+    right: 0px;
+    bottom: 0px;
+}
+.avatar-image{
+    height:clamp( 20rem, 45vw, 47rem);
+    z-index:5;
+}
+.avatar-caption{
+    color: chartreuse;
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.avatar-caption-stroke{
+    color: transparent;
+    -webkit-text-stroke: 0.01vw chartreuse;
+    z-index: 10;
+}
